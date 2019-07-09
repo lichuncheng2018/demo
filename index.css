@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 最大祖宗 很多全局要用的可以直接这里定义 */
+body{
+    background: #ededed;
+}
+/* 公共类居中 */
+.gg{
+    margin: 0 auto;
+}
+/* 头部开始 */
+.header{
+    width: 980px; 
+    height: 86px;
+    /* 居中 */
+    /* 底纹横线 */
+    border-bottom: 2px solid #d1d1d1;
+}
+.header h1{
+    /* 取消加粗 */
+    font-weight: normal;
+    /* font-size: 3px; */
+    /* font-family: "微软雅黑"; */
+    font: 30px "微软雅黑";
+    color: #a5a5a5;
+    /* 水平居中 */
+    text-align: center;
+    line-height: 86px；  /* 垂直居中： 高度等=行高 */
+}
+/* 继承 */
+.header h1 span{
+    font-size: 14px;
+}
+/* 分类开始 */
+.fenlei{
+    width: 980px; 
+    /* height: 500px; */
+    color: #a5a5a5;
+}
+.fenlei h3{
+    font: 14px "微软雅黑";
+    height: 42px;    /* 高度 */
+    line-height: 42px;   /* 垂直居中 */
+}
+.fenlei p{
+    font:18px/30px "楷体";
+    text-align: center;
+}
+ /* 分类结束 */
+ /* 热卖开始 */
+ .remai{
+     width: 602px;
+     /* text-align: center;*/
+      margin: 10px auto;  /*auto是居中 */
+      text-indent: 2em;   /*首行缩进*/
+      font:16px/30px "楷体";
+      color: #a5a5a5;
+ }
+ .remai p em{
+     font-style: normal;
+     text-decoration: underline; /*下划线*/
+ }
+ /* 页脚开始 */
+ .footer{
+     width: 602px;
+     text-align: center; 
+     margin-top: 10px;  
+     padding-top: 30px; 
+ }
+ .footer h2{
+    font: 16px "微软雅黑";
+    font-weight: bold;
+ }
+ .footer img{
+     float: left;   /*浮动 飘起来*/
+     /* margin: 30px;    上 右 下 左 */
+     margin-top: 30px;
+     margin-right: 30px;
+ }
+ .footer .boss{
+      text-align: left;
+ }
